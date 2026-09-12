@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio page for a web developer passionate about responsive design and dynamic front-end experiences."
+    />
+    <title>Emma | Web Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="bg-grid"></div>
+      <div class="orb orb-one"></div>
+      <div class="orb orb-two"></div>
+
+      <header class="site-header">
+        <nav class="nav container">
+          <a href="#home" class="brand" aria-label="Emma home">Emma<span>.</span></a>
+
+          <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <div class="nav-menu">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="#contact">Contact</a>
+            <a href="#contact" class="btn btn-small">Let’s talk</a>
+          </div>
+        </nav>
+      </header>
+
+      <main id="home">
+        <section class="hero container">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Web developer • UI enthusiast</p>
+            <h1>
+              <span class="static-line">I design and build</span>
+              <span class="typed-line">
+                <span class="typed-text" data-typed-text="responsive experiences"></span>
+              </span>
+            </h1>
+            <p class="lead">
+              I’m Emma, a web developer passionate about crafting dynamic interfaces,
+              clean code, and digital experiences that feel as good as they look.
+            </p>
+
+            <div class="cta-row">
+              <a href="projects.html" class="btn">View all projects</a>
+              <a href="#about" class="btn btn-secondary">About me</a>
+            </div>
+
+            <ul class="quick-stats" aria-label="Key stats">
+              <li><strong>3+</strong><span>Years learning</span></li>
+              <li><strong>100%</strong><span>Curiosity-driven</span></li>
+            </ul>
+          </div>
+
+        </section>
+
+        <section id="about" class="about container reveal">
+          <div class="section-heading">
+            <p class="eyebrow">About</p>
+            <h2>Designing experiences that move with people.</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-card">
+              <span class="about-card-subtitle">About Me</span>
+              <p>
+                I am 22 years old and I have just completed my University course with a 2:1 (1 Division).
+                Throughout the course, I developed skills across a variety of media formats, with a
+                particular interest in Website Development.
+              </p>
+              <p>
+                I am a trustworthy, approachable, and friendly individual with strong communication
+                skills, allowing me to work effectively with others. I enjoy collaborating in a team
+                environment, where I can offer encouragement and support. Highly organised and
+                hardworking, I am eager to take on new opportunities and continuously develop my skills.
+              </p>
+            </div>
+
+            <div class="about-highlights">
+              <div>
+                <span>Design-led</span>
+                <h3>Problem solving</h3>
+                <p>I create experiences shaped by user needs, clarity, and strong visual hierarchy.</p>
+              </div>
+              <div>
+                <span>Web development</span>
+                <h3>Craft &amp; code</h3>
+                <p>I enjoy bringing ideas to life through responsive layouts, polished interactions, and practical front-end builds.</p>
+              </div>
+              <div>
+                <span>Creative</span>
+                <h3>Collaboration</h3>
+                <p>I like refining concepts through research, prototyping, and iteration to create meaningful digital work.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="skills" class="skills section-spacing">
+          <div class="container">
+            <div class="section-heading reveal">
+              <p class="eyebrow">Skills</p>
+              <h2>Tools I use to bring ideas to life.</h2>
+            </div>
+
+            <div class="skills-grid">
+              <article class="skill-card reveal">
+                <div class="icon">01</div>
+                <h3>HTML &amp; CSS</h3>
+                <p>Strong foundations for structure, accessibility, layout, and visual polish.</p>
+              </article>
+
+              <article class="skill-card reveal">
+                <div class="icon">02</div>
+                <h3>JavaScript</h3>
+                <p>Interactive functionality that adds motion, logic, and richer user flow.</p>
+              </article>
+
+              <article class="skill-card reveal">
+                <div class="icon">03</div>
+                <h3>Responsive Design</h3>
+                <p>Flexible interfaces that prioritize clarity and usability across devices.</p>
+              </article>
+
+              <article class="skill-card reveal">
+                <div class="icon">04</div>
+                <h3>Prototyping</h3>
+                <p>Turning ideas into interactive, testable concepts that help refine the experience early.</p>
+              </article>
+
+              <article class="skill-card reveal">
+                <div class="icon">05</div>
+                <h3>Branding</h3>
+                <p>Creating cohesive visual identities and brand systems that feel consistent across touchpoints.</p>
+              </article>
+
+              <article class="skill-card reveal">
+                <div class="icon">06</div>
+                <h3>User Journey Planning</h3>
+                <p>Mapping how people move through a product so the experience feels intuitive and purposeful.</p>
+              </article>
+
+              <article class="skill-card reveal">
+                <div class="icon">07</div>
+                <h3>UI/UX Thinking</h3>
+                <p>Design choices rooted in flow, hierarchy, and frictionless interaction.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="projects" class="projects section-spacing">
+          <div class="container">
+            <div class="section-heading reveal">
+              <p class="eyebrow">Projects</p>
+              <h2>Selected work showing my web-dev focus.</h2>
+            </div>
+
+            <div class="project-list" id="projectList"></div>
+          </div>
+        </section>
+      </main>
+
+      <footer id="contact" class="site-footer">
+        <div class="container footer-inner reveal">
+          <div>
+            <p class="eyebrow">Let’s connect</p>
+            <h2>Open to new ideas, collaborations, and opportunities.</h2>
+          </div>
+          <a href="mailto:emmasole438@gmail.com" class="btn">emmasole438@gmail.com</a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
